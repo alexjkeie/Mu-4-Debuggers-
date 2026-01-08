@@ -1,0 +1,19 @@
+/* The Glowing Purple Terminal Look */
+body {
+  background-color: #05000a;
+  color: #d400ff;
+  font-family: 'Courier New', monospace;
+}
+
+.mu4-border {
+  border: 1px solid #d400ff;
+  box-shadow: 0 0 15px #d400ff;
+  padding: 20px;
+  background: rgba(20, 0, 40, 0.9);
+}
+
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
